@@ -1,17 +1,17 @@
 p {
     text-align: center;  
-    color: red;
+    color: #21262d;
 }
 body {
-    background: blue;
+    background: #a2d2fb;
     font-family: Arial, Helvetica, sans-serif;
 }
 #header {
-   color: green;
+   color: #161b22;
 }
 .about {
     text-align: center;
-    color: blue;
+    color: #21262d;
 }
 .projects{
     background: #00b3d1;
@@ -20,7 +20,7 @@ body {
     text-align: left;
 }
 .green {
-    color: green;
+    color: #77bdfb;
 }
 .attention {
     font-weight: bold;
