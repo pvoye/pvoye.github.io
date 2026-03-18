@@ -13,8 +13,13 @@ body {
     text-align: center;
     color: #21262d;
 }
+.projects{ display:flex; flex-wrap:wrap; }
 .projects{
-    background: #77bdfb;
+    width: 30%;
+    margin: 10px;
+    padding: 20px 10px;
+    background: white;
+    border-radius: 25%;
 }
 .left {
     text-align: left;
