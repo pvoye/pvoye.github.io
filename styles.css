@@ -18,9 +18,11 @@ body {
     color: #21262d;
 }
 .projects { 
-    display:flex; flex-wrap:wrap; 
+    display:flex; 
+    flex-wrap:wrap; 
+    justify-content: center;
 }
-.projects{
+.project {
     text-align: center;
     width: 30%;
     margin: 10px;
