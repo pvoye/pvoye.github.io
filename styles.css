@@ -24,8 +24,19 @@ h3 {
    color: #161b22;
 }
 .about {
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 100px;
+    margin-left: 100px;
+    justify-content: center;
     color: #21262d;
+}
+.about p {
+    width: 50%;
+    text-align: left;
+    margin: 40px;
+    line-height: 125%;
+    color: rgb(54, 50, 176);
 }
 .projects { 
     display:flex; 
@@ -33,7 +44,6 @@ h3 {
     justify-content: center;
 }
 .project {
-    text-align: center;
     width: 30%;
     margin: 10px;
     padding: 20px 10px;
@@ -44,7 +54,9 @@ h3 {
     width: 300px;
     height: 300px;
     margin: 10px;
-    border: 2px solid rgb(126, 14, 201)
+    border: 2px solid rgb(126, 14, 201);
+    display: block;
+    margin: auto;
 }
 .project img:hover {
     border: 2px solid white;
@@ -59,6 +71,7 @@ a {
 .project p {
     text-align: center;
     margin: 15px;
+    color: white;
 }
 .left {
     text-align: left;
