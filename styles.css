@@ -28,13 +28,14 @@ h3 {
     color: #21262d;
 }
 .projects { 
-    display:flex; 
-    flex-wrap:wrap; 
-    justify-content: center;
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
     gap: 20px;
 }
 .project {
-    width: 300px;
+    width: 100%;
+    max-width: 300px;
     padding: 20px 10px;
     background: white;
     border-radius: 20px;
