@@ -26,7 +26,7 @@ nav button {
 
 nav button:hover,
 nav button.active {
-  background: #ddc3ff;
+  background: #aba2fb;
   font-weight: bold;
 }
 main {
