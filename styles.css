@@ -38,7 +38,17 @@ main {
   border-radius: 8px;
   min-height: 50vh;
 }
-
+main > section {
+    display:none;
+    padding: 3rem 2rem;
+    animation: fadeIn 0.4s;
+}
+main > section.active {
+    display: block;
+}
+.projects .project {
+    display: block;
+}
 section {
   padding: 3rem 2rem;
   display: none;
